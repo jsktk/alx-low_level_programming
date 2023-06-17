@@ -10,10 +10,10 @@ int main(void)
 {
 	int alphabets = '0';
 
-	while (alphabet <= '9')
+	while (alphabets <= '9')
 	{
-		putchar(alphabet);
-		alphabet++;
+		putchar(alphabets);
+		alphabets++;
 	}
 	putchar('\n');
 	return (0);
